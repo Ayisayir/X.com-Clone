@@ -1,0 +1,37 @@
+body{
+  margin: 0;
+  font-family: Arial;
+  display: flex;
+}
+
+
+.page{
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar{
+  width: 12%;
+  position: fixed;
+}
+
+
+.right-section{
+  width: 40%;
+  height: fit-content;
+  position: sticky;
+  top: 0;
+  margin-bottom: 90px;
+  align-self: flex-start;
+}
+
+.main-section{
+  width: 48%;
+  height: fit-content;
+  border: 1px solid rgb(242, 242, 242);
+  margin-left: 12%;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 5px;
+  overflow: visible;
+}

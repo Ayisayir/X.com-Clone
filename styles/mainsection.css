@@ -1,0 +1,265 @@
+.post-section{
+  margin-top: 80px;
+}
+
+.whats{
+  border: none;
+  width: 540px;
+  font-size: 18px;
+  vertical-align: middle;
+  margin-left: 5px;
+  outline: none;
+}
+
+.horizontal-line,
+.horizontal-line2{
+  width: 612px;
+  border: 1px solid;
+  border-color: rgb(242, 242, 242);
+  margin: 15px -10px 20px -10px;
+  padding-right: 2px;
+}
+
+.horizontal-line2{
+  margin-top: 10px;
+  
+}
+
+.post,
+.sub-post,
+.post3{
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: -10px;
+  font-size: 15px;
+  line-height: 8px;
+}
+
+.dibia,
+.abdul,
+.laflame{
+  width: 530px;
+  margin: 5px 8px 0px 40px;
+  border: solid 1px lightgray;
+  border-radius: 15px;
+  padding: 0px 10px 0px 10px;
+}
+
+.sub-post{
+  margin-top: -15px;
+  margin-bottom: 5px;
+  line-height: 5px;
+}
+
+.post3{
+  line-height: 30px;
+}
+
+.dull-moments,
+.username3{
+  margin-top: -25px;
+}
+
+
+.dull-moments-div{
+  line-height: px;
+  display: inline-block;
+}
+
+.hottest{
+  line-height: normal;
+  width: 500px;
+  margin-top: 0px;
+}
+
+.ad{
+  display: inline-block;
+  font-size: 15px;
+  color: gray;
+  margin-left: 305px;
+  cursor: pointer;
+}
+
+.mtn-pic{
+  width: 535px;
+  border-radius: 15px;
+}
+
+.mtn-pic-div{
+  margin-left: 50px;
+  line-height: 0px;
+}
+
+.mtn-div{
+  margin-top: -15px;
+}
+
+.mtn-ng{
+  color: gray;
+  font-size: 14px;
+}
+
+.mtn-play{
+  margin-top: -20px;
+  margin-bottom: 33px;
+  color: white;
+  margin-left: 40px;
+  font-size: 14px;
+}
+
+.reposted{
+  display: inline-block;
+  color: gray;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.repost-div{
+  margin-bottom: -5px;
+  margin-top: -20px;
+}
+
+.enjoy{
+  margin-top: 0px;
+}
+
+.abdul{
+  margin-top: -50px;
+}
+
+.replying{
+  color: rgb(129, 125, 125);
+}
+
+.bigbanju,
+.bigbanju2{
+  display: inline-block;
+  width: 274.5px;
+  height: 350px;
+  object-fit: cover;
+  margin-top: -15px;
+}
+
+.bigbanju{
+  margin-left: 40px;
+  border-radius: 0 0 0 15px;
+}
+
+.bigbanju2{
+  margin-left: -2px;
+  margin-right: 5px;
+  border-radius: 0 0 15px 0;
+}
+
+.bod{
+  margin-bottom: 35px;
+}
+
+.finally,
+.after{
+  margin-bottom: 35px;
+  margin-top: 0px;
+}
+
+.RWpic-div{
+  width: 400px;
+  height: 460px;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  margin-left: 40px;
+}
+
+.RWpic{
+  width: 390px;
+  margin-top: 10px;
+  margin-left: 2px;
+}
+
+.pinned-div{
+  background-color: rgb(249, 249, 249);
+  margin-top: -20px;
+  margin-left: -10px;
+  margin-right: -5px;
+}
+
+.people-you-follow{
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 20px;
+}
+
+.morgan-div,
+.faruq-div{
+  display: inline-block;
+  width: 300px;
+  height: 147px;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  padding: 5px 0 0 20px;
+}
+
+.morgan-thumbnail-div{
+  display: flex;
+  flex-direction: row;
+  margin-left: -25px;
+}
+
+.morgan-thumbnail{
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+}
+
+.morgan-caption{
+  width: 170px;
+  line-height: 20px;
+  margin-left: 15px;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+
+.faruq-div{
+  width: 254.2px;
+  margin-left: 8px;
+  border-radius: 15px;
+  vertical-align: top;
+  padding-left: 10px;
+}
+
+.faruq-caption{
+  margin-left: -25px;
+  margin-top: 10px;
+}
+
+.villageparrot-caption,
+.ifesinachi-caption{
+  width: 498px;
+  margin-top: 10px;
+  line-height: 23px;
+}
+
+.show-more{
+  color: rgb(29, 161, 242);
+  margin: -10px 0 0px 0; 
+}
+
+.ifesinachi-thumbnail{
+  width: 310px;
+  height: 400px;
+  object-fit: cover;
+  margin: 5px 0 -5px 115px;
+}
+
+.bisi-thumbnail{
+  width: 265px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.bisi-thumbnail-div{
+  margin-top: -30px;
+  margin-left: 50px;
+}

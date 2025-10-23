@@ -1,0 +1,57 @@
+.username,
+.username2,
+.username3,
+.username4,
+.username5,
+.villageparrot,
+.big-b{
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.at{
+  color: rgb(113, 113, 113);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.username2,
+.username3,
+.username4,
+.username5,
+.big-b{
+  display: inline-block;
+}
+
+.username4{
+  margin-top: 18px;
+}
+
+.username5{
+  margin-top: 25px;
+}
+
+.villageparrot{
+  margin-top: 15px;
+  margin-bottom: -5px;
+}
+
+.big-b{
+  margin-top: 18px;
+}
+
+.user-name-div{
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: -10px;
+  font-size: 15px;
+  line-height: 8px;
+}
+
+
+.handle{
+  margin-top: 0;
+  color: gray;
+  font-size: 15px;
+}
+

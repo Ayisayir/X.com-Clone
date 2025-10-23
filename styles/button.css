@@ -1,0 +1,79 @@
+.post-button{
+  width: 65px;
+  height: 35px;
+  border: none;
+  border-radius: 20px;
+  background-color: gray;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.post-button:hover{
+  background-color: rgb(105, 105, 105);
+}
+
+.post-button:active{
+  background-color: rgb(91, 91, 91);
+}
+
+.searchbar-div{
+  width: 474px;
+  height: 50px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+}
+
+.searchbar{
+  width: 330px;
+  height: 40px;
+  border-radius: 30px;
+  border: solid 1px lightgray;
+  margin-left: 30px;
+  color: lightgray;
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+.subscribe-button{
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(29, 155, 240);
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+
+.subscribe-button:hover{
+  background-color: rgb(0, 138, 230);
+}
+
+.follow-button{
+  width: 75px;
+  height: 33px;
+  border: none;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 7px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.follow-button:hover{
+  opacity: 0.85;
+}

@@ -1,0 +1,81 @@
+.display-picture,
+.display-picture3{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 25px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.display-picture1,
+.display-picture2,
+.morgan-dp,
+.faruq-dp,
+.mtn-dp{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 25px;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.display-picture2{
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.mtn-dp{
+  border-radius: 3px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.morgan-dp,
+.faruq-dp{
+  width: 25px;
+  height: 25px;
+  margin-top: 7px;
+  margin-right: -5px;
+}
+
+.todays-news-dp1,
+.todays-news-dp2,
+.todays-news-dp3,
+.todays-news-dp4{
+  width: 23px;
+  height: 23px;
+  border-radius: 25px;
+  border: solid white 2px;
+  vertical-align: middle;
+}
+
+.todays-news-dp1{
+  margin-right: -46px;
+  margin-left: 20px;
+}
+
+.todays-news-dp3,
+.todays-news-dp4{
+  background-color: white;
+  border: solid white 1px;
+  margin-left: -45px;
+  padding-top: -100px;
+}
+
+.todays-news-dp4{
+  border: solid white 2px;
+}
+
+
+.display-picture-div{
+  display: inline-block;
+}
+
+.display-picture:hover{
+  opacity: 0.9;
+}

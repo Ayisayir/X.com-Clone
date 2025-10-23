@@ -1,0 +1,223 @@
+.icon-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.icon-row{
+  margin-left: 40px;
+}
+
+.icon{
+  width: 40px;
+  border-radius: 40px;
+  margin-right: -10px;
+  cursor: pointer;
+}
+
+.icon-value-div{
+  display: inline-block;
+  margin-right: 60px;
+  margin-left: 20px;
+}
+
+.side-icon-div{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 263px;
+}
+
+.side-icon-div2,
+.side-icon-div3,
+.VillageParrot-side-icon-div{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 535px;
+  margin-top: -90px;
+}
+
+.side-icon-div3{
+  margin-top: -140px;
+}
+
+.VillageParrot-side-icon-div{
+  margin-top: -190px;
+}
+
+.icon2,
+.ad-icon,
+.option-icon,
+.option-icon2{
+  width: 18px;
+  border-radius: 13px;
+  margin-right: -10px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.icon3-div{
+  margin-left: 30px;
+}
+
+.icon4-div{
+  margin-left: 5px;
+}
+
+.like,
+.retweet,
+.comment,
+.impression,
+.upload{
+  width: 18px;
+  margin-bottom: -3px;
+  margin-left: 12px;
+  margin-top: 6px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.impression,
+.upload{
+  width: 15px;
+}
+
+.comment{
+  margin-bottom: -4px;
+}
+
+.impression,
+.like,
+.retweet,
+.comment{
+  margin-right: 80px;
+}
+
+.bookmark{
+  width: 14px;
+  margin-bottom: -4px;
+  cursor: pointer;
+}
+
+.comment-div{
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.bookmark-div{
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.ad-icon{
+  vertical-align: middle;
+  padding-left: 2px;
+}
+
+.comment2{
+  width: 30px;
+  cursor: pointer;
+}
+
+.icon-value{
+  font-size: 14px;
+  display: inline-block;
+  color: gray;
+  margin-left: -77px;
+  margin-right: -25px;
+  cursor: pointer;
+}
+
+.retweet-icon{
+  display: inline-block;
+  width: 18px;
+  margin-left: 30px;
+  margin-bottom: -2px;
+  cursor: pointer;
+}
+
+.arrow{
+  width: 20px;
+  margin-right: 20px;
+  margin-left: 230px;
+  cursor: pointer;
+}
+
+.tick{
+  width: 18px;
+  display: inline-block;
+  margin-left: 0px;
+  margin-bottom: -4px;
+}
+
+.close-icon{
+  font-weight: lighter;
+  font-size: 30px;
+  vertical-align: middle;
+  margin-left: 170px;
+}
+
+.close-icon:hover{
+  color: gray;
+}
+
+.option-icon{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 190px;
+}
+
+.option-icon2{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 172px;
+}
+
+.messages-icon-div,
+.caret-icon-div{
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 175px;
+}
+
+.caret-icon-div{
+  margin-left: -10px;
+}
+
+.new-message-icon,
+.caret-icon{
+  width: 20px;
+  height: 21px;
+  background-color: transparent;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 10px 10px 10px;
+  transition: 0.5s;
+}
+
+.new-message-icon:hover,
+.caret-icon:hover{
+  background-color: rgb(235, 235, 235);
+  border-radius: 20px;
+  border: none;
+  padding: 10px 10px 10px 10px;
+}
+
+.grok-icon{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  padding: 12px 11px 12px 11px;
+  border-radius: 15px;
+  border: solid 1px rgb(199, 216, 227);
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.13);
+  position: fixed;
+  bottom: 70px;
+  right: 30px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.grok-icon:hover{
+  background-color: rgb(231, 244, 252);
+}

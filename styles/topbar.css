@@ -1,0 +1,74 @@
+.topbar{
+  width: 612px;
+  height: 50px;
+  color: gray;
+  font-weight: bold;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: -10px;
+  padding-top: 20px;
+  position: fixed;
+  top: 0;
+  background-color: white;
+}
+
+.for-you{
+  margin-left: -10px;
+}
+
+.topbar-line{
+  width: 612px;
+  border: 1px solid;
+  border-color: rgb(242, 242, 242);
+  padding-right: 2px;
+  margin-left: -10px;
+  margin-top: 59px;
+  margin-bottom: 200px;
+  position: fixed;
+}
+
+.for-you,
+.following,
+.lloner,
+.doctors-squad{
+  padding: 25px 25px 25px 25px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.for-you:hover,
+.following:hover,
+.lloner:hover,
+.doctors-squad:hover{
+  background-color: rgb(230, 230, 230);
+}
+
+.topbar p{
+  margin-top: -10px;
+}
+
+.arrow-circle{
+  width: 40px;
+  height: 40px;
+  background-color: gray;
+  opacity: 0;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-left: 550px;
+  cursor: pointer;
+}
+
+.arrow-right{
+  color: white;
+  font-size: 25px;
+  margin-top: -2px;
+}
+
+.topbar:hover .arrow-circle{
+  opacity: 1;
+}

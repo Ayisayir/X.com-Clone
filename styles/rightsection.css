@@ -1,0 +1,260 @@
+.subscribe-div{
+  border: solid 1px rgb(240, 240, 240);
+  width: 340px;
+  height: 140px;
+  margin: 55px 0 0 30px;
+  border-radius: 15px;
+  padding: 0px 0 15px 15px;
+}
+
+.new-features{
+  font-size: 15px;
+  width: 300px;
+  line-height: 20px;
+}
+
+.todays-news-div{
+  width: 355px;
+  margin: 20px 0 0 30px;
+  height: 364px;
+  border: solid 1px rgb(240, 240, 240);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+
+.todays-news{
+  margin: 15px 0 0 15px;
+  display: inline-block;
+}
+
+.trending{
+  padding: 5px 0 10px 15px;
+  height: 90px;
+}
+
+.trending:hover{
+  background-color: rgb(245, 245, 245);
+}
+
+.headline{
+  width: 320px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.todays-news-dp-div{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.stats{
+  display: inline-block;
+  color: gray;
+  font-size: 14px;
+  margin-left: 30px;
+}
+
+.whats-happening-div{
+  width: 340px;
+  margin: 20px 0 0 30px;
+  height: 550px;
+  border: solid 1px rgb(240, 240, 240);
+  border-radius: 15px;
+  padding: 0 0 15px 0px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+
+.whats-happening-div div:hover{
+  background-color: rgb(245, 245, 245);
+}
+
+.whats-happening-div h3{
+  margin-left: 10px;
+  cursor: text;
+}
+
+.fashion-week-thumbnail{
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.milan-div{
+  margin-left: 100px;
+  margin-top: -90px;
+  line-height: 0;
+}
+
+.milan-div:hover{
+  background-color: transparent;
+}
+
+.live{
+  color: gray;
+  font-size: 12px;
+}
+
+.walkhearton{
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.lagos{
+  font-size: 14.5px;
+  color: gray;
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+
+.promoted{
+  font-size: 13px;
+  color: gray;
+  margin-top: 3px;
+}
+
+.Trending,
+.post-stats{
+  display: inline-block;
+  margin-bottom: 0;
+  color: gray;
+  font-size: 14px;
+}
+
+.topic{
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+
+.post-stats{
+  margin-top: 3px;
+}
+
+.Showmore-div{
+  color: rgb(29, 161, 242);
+  font-size: 15px;
+  padding: 10px 10px 10px 10px;
+  margin-top: -10px;
+  transition: 0.2s;
+}
+
+
+.Showmore-div:hover{
+  height: 40px;
+  border-radius: 0 0 15px 15px;
+  background-color: rgb(245, 245, 245);
+}
+
+.who-to-follow-div{
+  width: 350px;
+  margin: 20px 0 0 30px;
+  height: 305px;
+  border: solid 1px rgb(240, 240, 240);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.who-to-follow-div div{
+  height: 60px;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-left: 0;
+  margin-top: -10px;
+  transition: 0.2s;
+}
+
+.who-to-follow-div div:hover{
+  background-color: rgb(245, 245, 245);
+}
+
+.showmore{
+  color: rgb(29, 161, 242);
+  margin-left: 10px;
+  font-size: 15px;
+  margin-top: 2px;
+} 
+
+
+.showmore-div:hover{
+  border-radius: 0px 0px 15px 15px ;
+}
+
+.info{
+  color: gray;
+  font-size: 11.5px;
+  margin-left: 50px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.info p{
+  display: inline-block;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.info p:hover{
+  text-decoration: underline;
+}
+
+.info div{
+  display: inline-block;
+}
+
+.messages-div{
+  width: 380px;
+  height: 75px;
+  border: none;
+  background-color: white;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.15);
+  margin-left: 85px;
+  margin-bottom: -15px;
+  border-radius: 20px;
+  position: fixed;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.messages{
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.messages-icon-div .tooltip,
+.caret-icon-div .tooltip{
+  position: absolute;
+  background-color: rgb(45, 45, 45);
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 2px;
+  margin-bottom: 77px;
+  margin-left: -20px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: 0.5s;
+  pointer-events: none;
+  white-space: nowrap;
+  z-index: 10;
+}
+
+.caret-icon-div .tooltip{
+  margin-bottom: 102px;
+  margin-left: -5px;
+}
+
+.messages-icon-div:hover .tooltip,
+.caret-icon-div:hover .tooltip{
+  opacity: 0.7;
+  transition-delay: 0.7s;
+}
